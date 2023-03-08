@@ -1,0 +1,45 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+}
+
+.container {
+	height: 80%;
+	width: 80%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	/* border: 2px solid red; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.row {
+	height: 40%;
+	width: 100%;
+	/* border: 2px solid blue; */
+}
+
+
+img {
+    height: 100%; 
+	width: 100%;
+    object-fit: contain;
+}
+
+a {
+	cursor: pointer;
+	width: 100%;
+}
+
+#neon-gif {
+	/* height: 100%; */
+	object-fit: contain;
+}
